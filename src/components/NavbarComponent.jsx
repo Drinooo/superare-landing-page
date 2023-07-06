@@ -22,7 +22,7 @@ export const NavbarComponent = () => {
     };
   }, []);
   return (
-    <Navbar className="mx-auto max-w-full shadow-none border-none bg-transparent">
+    <Navbar className="mx-auto max-w-full shadow-none border-none bg-transparent backdrop-saturate-100 backdrop-blur-none -mb-[100px] z-50 sticky top-0">
       <div className="flex items-center justify-between text-black max-w-screen-xl mx-auto">
         <Typography
           as="a"

@@ -16,3 +16,30 @@ export const navigation = [
     path: '/Wallet',
   },
 ]
+
+export const partners = [
+  {
+    img: '/images/webflow.png',
+  },
+  {
+    img: '/images/relume.png',
+  },
+  {
+    img: '/images/webflow.png',
+  },
+  {
+    img: '/images/relume.png',
+  },
+  {
+    img: '/images/webflow.png',
+  },
+  {
+    img: '/images/relume.png',
+  },
+  {
+    img: '/images/webflow.png',
+  },
+  {
+    img: '/images/relume.png',
+  },
+]
