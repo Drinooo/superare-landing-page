@@ -65,8 +65,10 @@ module.exports = withMT({
       h5: ["40px", { lineHeight: "auto" }],
       h6: ["28px", { lineHeight: "auto" }],
       body1: ["26px", { lineHeight: "auto" }],
-      body2: ["18px", { lineHeight: "auto" }],
+      body2: ["20px", { lineHeight: "auto" }],
+      body3: ["18px", { lineHeight: "auto" }],
       navigation: ["20px", { lineHeight: "auto" }],
+      footer: ["16px", {lineHeight: "auto"}],
       button: ["18px", { lineHeight: "auto" }],
       textButton: ["16px", { lineHeight: "auto" }],
       position: ["18px", { lineHeight: "auto" }],
@@ -83,5 +85,5 @@ module.exports = withMT({
       extrabold: "800",
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 });

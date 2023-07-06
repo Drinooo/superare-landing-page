@@ -6,7 +6,7 @@ export const HeroSection = () => {
   return (
     <section class="hero">
       <div class="grid max-w-screen-xl px-0 py-10 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-        <div class="mr-auto place-self-center lg:col-span-7 space-y-12">
+        <div class="mr-auto place-self-center lg:col-span-7 space-y-12 text-black">
           <h1 class="max-w-2xl mb-4 text-h1 font-medium tracking-tight leading-none md:text-5xl xl:text-6xl">
             Discover and collect super rare NFTs
           </h1>
@@ -20,7 +20,7 @@ export const HeroSection = () => {
           </div>
         </div>
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-          <img src="/images/NFT1.png" className="w-full" />
+          <img src="/images/NFT.png" className="w-full" />
         </div>
       </div>
     </section>

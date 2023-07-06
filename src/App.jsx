@@ -6,6 +6,10 @@ import { Button } from '@material-tailwind/react'
 import { NavbarComponent } from './components/NavbarComponent'
 import { HeroSection } from './sections/HeroSection'
 import { PartnerSection } from './sections/PartnerSection'
+import { AboutSection } from './sections/AboutSection'
+import { CharacterSection } from './sections/CharacterSection'
+import { FAQSection } from './sections/FAQSection'
+import { FooterSection } from './sections/FooterSection'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +19,10 @@ function App() {
       <NavbarComponent />
       <HeroSection />
       <PartnerSection />
+      <AboutSection />
+      <CharacterSection />
+      <FAQSection />
+      <FooterSection />
     </>
   )
 }

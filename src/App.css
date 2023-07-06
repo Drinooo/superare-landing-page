@@ -1,6 +1,32 @@
-.hero{
-  background: url('/images/gradient-bg.png');
+:root{
+  background: #111;
+}
+
+.hero {
+  background: url("/images/gradient-bg.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.footer-bg {
+  background: url("/images/gradient-bg.png");
+}
+
+.card {
+  border: 1px solid #fff;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+}
+
+.flex::-webkit-scrollbar {
+  width: 0.5rem; /* Adjust the width of the scrollbar as needed */
+  background-color: transparent;
+}
+
+.flex::-webkit-scrollbar-thumb {
+  background-color: transparent;
 }

@@ -5,7 +5,7 @@ import { partners } from "../utils/Data";
 export const PartnerSection = () => {
   return (
     <div className="mx-auto flex flex-col gap-y-[33px] py-[80px]">
-      <div className="grid justify-items-center text-center">
+      <div className="grid justify-items-center text-center text-white">
         <Typography className="font-main font-bold text-h6">Partners</Typography>
       </div>
       <div className="flex flex-wrap flex-row justify-between">
