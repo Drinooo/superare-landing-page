@@ -24,24 +24,6 @@ export const partners = [
   {
     img: "/images/relume.png",
   },
-  {
-    img: "/images/webflow.png",
-  },
-  {
-    img: "/images/relume.png",
-  },
-  {
-    img: "/images/webflow.png",
-  },
-  {
-    img: "/images/relume.png",
-  },
-  {
-    img: "/images/webflow.png",
-  },
-  {
-    img: "/images/relume.png",
-  },
 ];
 
 export const about = [
