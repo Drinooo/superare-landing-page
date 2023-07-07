@@ -10,6 +10,7 @@ import { AboutSection } from './sections/AboutSection'
 import { CharacterSection } from './sections/CharacterSection'
 import { FAQSection } from './sections/FAQSection'
 import { FooterSection } from './sections/FooterSection'
+import { CTASection } from './sections/CTASection'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,6 +23,7 @@ function App() {
       <AboutSection />
       <CharacterSection />
       <FAQSection />
+      <CTASection />
       <FooterSection />
     </>
   )

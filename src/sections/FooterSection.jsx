@@ -7,7 +7,7 @@ const currentYear = new Date().getFullYear();
 export const FooterSection = () => {
   return (
     <footer className="w-full footer-bg p-8 text-black pt-[82px]">
-      <div className="flex flex-col flex-wrap items-center justify-center gap-y-6 gap-x-12 text-center md:justify-between">
+      <div className="flex flex-col flex-wrap items-center justify-center lg:gap-y-6 sm:gap-y-2 gap-x-12 text-center md:justify-between">
         <Typography
           as="a"
           href="#"
@@ -22,7 +22,7 @@ export const FooterSection = () => {
                 as="a"
                 href="#"
                 color="blue-gray"
-                className="font-main text-navigation transition-colors hover:text-purple focus:text-purple"
+                className="font-main lg:text-navigation sm:text-phone-navigation transition-colors hover:text-purple focus:text-purple"
               >
                 {item.title}
               </Typography>
@@ -30,9 +30,9 @@ export const FooterSection = () => {
           ))}
         </ul>
       </div>
-      <div className="mt-12 flex w-full flex-col items-center justify-center border-t border-black py-4 md:flex-row md:justify-between">
+      <div className="lg:mt-12 sm:mt-6 flex w-full flex-col items-center justify-center border-t border-black py-4 md:flex-row md:justify-between">
         <Typography
-          className="mb-4 font-main text-footer text-black md:mb-0"
+          className="mb-4 font-main lg:text-footer sm:text-phone-footer text-black md:mb-0"
         >
           &copy; {currentYear}{" "}
           <a href="https://material-tailwind.com/">Superare</a>. All Rights
@@ -42,21 +42,21 @@ export const FooterSection = () => {
           <Typography
             as="a"
             href="#"
-            className="font-main text-footer hover:text-purple focus:text-purple"
+            className="font-main lg:text-footer sm:text-phone-footer hover:text-purple focus:text-purple"
           >
             Privacy Policy
           </Typography>
           <Typography
             as="a"
             href="#"
-            className="font-main text-footer hover:text-purple focus:text-purple"
+            className="font-main lg:text-footer sm:text-phone-footer hover:text-purple focus:text-purple"
           >
             Terms of Services
           </Typography>
           <Typography
             as="a"
             href="#"
-            className="font-main text-footer hover:text-purple focus:text-purple"
+            className="font-main lg:text-footer sm:text-phone-footer hover:text-purple focus:text-purple"
           >
             Cookies Settings
           </Typography>

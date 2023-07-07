@@ -51,6 +51,7 @@ module.exports = withMT({
     colors: {
       black: "#000000",
       white: "#FDFBFA",
+      white2: "#E2E3E5",
       purple: "#600060",
       transparent: "#FFF0",
     },
@@ -59,17 +60,39 @@ module.exports = withMT({
     },
     fontSize: {
       h1: ["80px", { lineHeight: "auto" }],
+      'phone-h1': ["40px", { lineHeight: "auto" }],
+
       h2: ["75px", { lineHeight: "auto" }],
+      'phone-h2': ["55px", { lineHeight: "auto" }],
+
       h3: ["48px", { lineHeight: "auto" }],
+      'phone-h3': ["32px", { lineHeight: "auto" }],
+
       h4: ["45px", { lineHeight: "auto" }],
+      'phone-h4': ["35px", { lineHeight: "auto" }],
+
       h5: ["40px", { lineHeight: "auto" }],
+      'phone-h5': ["25px", { lineHeight: "auto" }],
+
       h6: ["28px", { lineHeight: "auto" }],
       body1: ["26px", { lineHeight: "auto" }],
+      'phone-body1': ["20px", { lineHeight: "auto" }],
+
       body2: ["20px", { lineHeight: "auto" }],
+      'phone-body2': ["16px", { lineHeight: "auto" }],
+
       body3: ["18px", { lineHeight: "auto" }],
+      'phone-body3': ["16px", { lineHeight: "auto" }],
+
       navigation: ["20px", { lineHeight: "auto" }],
+      'phone-navigation': ["16px", { lineHeight: "auto" }],
+
       footer: ["16px", {lineHeight: "auto"}],
+      'phone-footer': ["14px", {lineHeight: "auto"}],
+
       button: ["18px", { lineHeight: "auto" }],
+      'phone-button': ["14px", { lineHeight: "auto" }],
+
       textButton: ["16px", { lineHeight: "auto" }],
       position: ["18px", { lineHeight: "auto" }],
       textlogo: ["30px", { lineHeight: "auto" }],

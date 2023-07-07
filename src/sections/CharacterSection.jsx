@@ -4,8 +4,8 @@ import { Typography } from "@material-tailwind/react";
 
 export const CharacterSection = () => {
   return (
-    <div className="text-center text-white">
-      <Typography className="font-main font-semibold text-h3">Find your favourite character</Typography>
+    <div className="text-center text-white py-[100px] sm:py-[40px]">
+      <Typography className="font-main font-semibold lg:text-h3 sm:text-phone-h3">Find your favourite character</Typography>
       <div className="carousel carousel-center rounded-box max-w-full p-4 space-x-4">
         {characters.map((item) => (
           <div className="carousel-item">

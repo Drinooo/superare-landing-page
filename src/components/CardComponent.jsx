@@ -13,7 +13,7 @@ export const CardComponent = () => {
   return (
     <>
       <div className="space-y-[32px]">
-        <div className="grid gap-x-[32px] grid-cols-2">
+        <div className="grid gap-x-[32px] sm:gap-y-[32px] lg:grid-cols-2 sm:grid-cols-1">
           {about
             .filter((item) => item.isBig == false)
             .map((item) => {
@@ -22,16 +22,13 @@ export const CardComponent = () => {
                   <CardBody className="text-white">
                     <div className="flex items-center justify-between mb-2">
                       <Typography
-                        color="blue-gray"
-                        className="font-main text-h4 font-semibold"
+                        className="font-main lg:text-h4 sm:text-phone-h4 font-semibold"
                       >
                         {item.title}
                       </Typography>
                     </div>
                     <Typography
-                      variant="small"
-                      color="gray"
-                      className="font-main text-body3"
+                      className="font-main lg:text-body3 sm:text-phone-body3"
                     >
                       {item.desc}
                     </Typography>
@@ -51,18 +48,18 @@ export const CardComponent = () => {
             .filter((item) => item.isBig == true)
             .map((item) => {
               return (
-                <Card className="w-full flex flex-row card bg-transparent shadow-none">
+                <Card className="w-full flex lg:flex-row sm:flex-col card bg-transparent shadow-none">
                   <CardBody className="grid content-center text-white">
                     <div className="justify-between mb-2">
                       <Typography
-                        className="font-main text-h4 font-semibold"
+                        className="font-main lg:text-h4 sm:text-phone-h4 font-semibold"
                       >
                         {item.title}
                       </Typography>
                     </div>
                     <Typography
                       variant="small"
-                      className="font-main text-body3"
+                      className="font-main lg:text-body3 sm:text-phone-body3"
                     >
                       {item.desc}
                     </Typography>

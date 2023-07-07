@@ -3,24 +3,24 @@ import React from 'react'
 
 export const FilledButton = ({children, color}) => {
   return (
-    <Button variant="filled" className='bg-purple rounded-full font-main font-regular text-button text-white'>{children}</Button>
-  )
-}
-
-export const GradientButton = ({children}) => {
-  return (
-    <Button variant="gradient">{children}</Button>
+    <Button variant="filled" className='bg-purple rounded-full font-main font-regular text-button sm:text-phone-button text-white'>{children}</Button>
   )
 }
 
 export const OutlinedButton = ({children}) => {
   return (
-    <Button variant="outlined" className='border-purple rounded-full font-main font-regular text-button text-purple'>{children}</Button>
+    <Button variant="outlined" className='border-purple border-2 rounded-full font-main font-regular text-button sm:text-phone-button text-purple'>{children}</Button>
   )
 }
 
-export const TextButton = ({children, color}) => {
+export const WhiteButton = ({children}) => {
   return (
-    <Button variant="text">{children}</Button>
+    <Button variant="filled" className='bg-white rounded-full font-main font-regular text-button sm:text-phone-button text-black'>{children}</Button>
+  )
+}
+
+export const WhiteOutlinedButton = ({children, color}) => {
+  return (
+    <Button variant="outlined" className='border-white border-2 rounded-full font-main font-regular text-button sm:text-phone-button text-white'>{children}</Button>
   )
 }

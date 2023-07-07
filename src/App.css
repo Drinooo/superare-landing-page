@@ -1,5 +1,8 @@
 :root{
-  background: #111;
+  background: url("/images/background.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .hero {
