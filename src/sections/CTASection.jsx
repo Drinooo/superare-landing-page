@@ -23,7 +23,7 @@ export const CTASection = () => {
                     Join our Discord channel or follow us on Twitter keep up to
                     date with our latest work and announcements.
                   </Typography>
-                  <div className="lg:space-x-5 sm:space-y-5">
+                  <div className="space-x-5 flex justify-center">
                     <WhiteButton>Join Discord</WhiteButton>
                     <WhiteOutlinedButton>Follow Twitter</WhiteOutlinedButton>
                   </div>

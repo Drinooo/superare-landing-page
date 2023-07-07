@@ -63,21 +63,6 @@ export const characters = [
   {
     img: "/images/NFT5.png",
   },
-  {
-    img: "/images/NFT1.png",
-  },
-  {
-    img: "/images/NFT2.png",
-  },
-  {
-    img: "/images/NFT3.png",
-  },
-  {
-    img: "/images/NFT4.png",
-  },
-  {
-    img: "/images/NFT5.png",
-  },
 ];
 
 export const questions = [
