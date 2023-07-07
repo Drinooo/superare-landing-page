@@ -16,8 +16,8 @@ export const FAQSection = () => {
   };
 
   return (
-    <div className="container mx-auto py-[100px] sm:py-[40px]">
-      <section className="mb-32">
+    <div className="container mx-auto lg:py-[100px] sm:py-[40px]">
+      <section className="">
         <div className="grid gap-4 md:grid-cols-2">
           <div className="mb-6 md:mb-0 text-white">
             <Typography className="mb-6 lg:text-h3 sm:text-phone-h3 font-main font-medium">
